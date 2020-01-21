@@ -11,7 +11,7 @@ article {
 
 section {
     display: flex;
-    display: -webkit-inline-box;
+    /* display: -webkit-inline-box; */
     display: -webkit-flex;
     width: 1000px;
     flex-wrap: wrap;
@@ -38,6 +38,10 @@ section {
     padding-bottom: 30px;
     padding-left: 10px;
     padding-top: 5px;
+}
+
+.no-wrap {
+    white-space: nowrap;
 }
 
 article.title-box {
@@ -86,6 +90,8 @@ h3 {
     /* letter-spacing: 3px; */
     line-height: 1.5em;
 }
+
+
 
 #character_justify {
     position: relative;
