@@ -1,6 +1,5 @@
 html {
     font-family: sans-serif;
-    /* background-color: red; */
 }
 
 article {
@@ -12,13 +11,17 @@ article {
 
 section {
     display: flex;
+    display: -webkit-inline-box;
+    display: -webkit-flex;
     width: 1000px;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     background-color: white;
     /* border: solid red; */
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
     section {
         width: 100%;
     }
@@ -35,7 +38,6 @@ section {
     padding-bottom: 30px;
     padding-left: 10px;
     padding-top: 5px;
-
 }
 
 article.title-box {
