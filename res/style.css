@@ -1,5 +1,28 @@
 html {
-    font-family: sans-serif;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+/* * {
+  outline: 1px solid red;
+  outline-offset: -1px;
+} */
+
+
+div.img-container {
+  position: relative;
+  height: 600px;
+}
+
+.bottom-align {
+  position: absolute;
+  bottom: 0;
+  vertical-align: bottom;
+}
+
+.portrait-with-vignette {
+    width: 400px; height: 400px;
+    box-shadow: inset 0em -2em 1em 1em #FFF;
+    background-image: url('kevin_portrait.JPG');
 }
 
 article {
