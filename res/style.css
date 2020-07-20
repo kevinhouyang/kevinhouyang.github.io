@@ -1,5 +1,6 @@
 html {
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    color: #1F0812 !important;
 }
 
 /* * {
@@ -7,6 +8,9 @@ html {
   outline-offset: -1px;
 } */
 
+body {
+  background-color: #F4EBD9;
+}
 
 div.img-container {
   position: relative;
@@ -40,7 +44,6 @@ section {
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-    background-color: white;
     /* border: solid red; */
 }
 
