@@ -2,7 +2,6 @@ html {
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
     color: #1F0812 !important;
 }
-
 /* * {
   outline: 1px solid red;
   outline-offset: -1px;
@@ -12,21 +11,10 @@ body {
   background-color: #F4EBD9;
 }
 
-div.img-container {
-  position: relative;
-  height: 600px;
-}
-
 .bottom-align {
   position: absolute;
   bottom: 0;
   vertical-align: bottom;
-}
-
-.portrait-with-vignette {
-    width: 400px; height: 400px;
-    box-shadow: inset 0em -2em 1em 1em #FFF;
-    background-image: url('kevin_portrait.JPG');
 }
 
 article {
@@ -57,11 +45,15 @@ section {
   margin: auto;
 }
 
+.top-padding {
+  padding-top: 13rem;
+}
+
 .bounding-box {
     /* border: 1px solid black; */
     display: block
     overflow: auto;
-    padding-bottom: 30px;
+    /* margin-bottom: 30px; */
     padding-left: 10px;
     padding-top: 5px;
 }
@@ -71,12 +63,16 @@ section {
 }
 
 article.title-box {
-    padding-top: 13rem;
-    display: block
+    /* margin-top: 13rem; */
+    margin-bottom: 30px;
+    display: block;
     overflow: auto;
     /* overflow-wrap: break-word;
     word-wrap: break-word; */
+}
 
+article.portrait-box {
+    margin-top: 40px;
 }
 
 article.subtitle-box {
@@ -91,7 +87,6 @@ article.subtitle-box h2 {
 }
 
 article.text-box {
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -133,5 +128,5 @@ h3 {
 }
 
 a {
-  color: #A3A3CC;
+  color: #6D72C3;
 }
