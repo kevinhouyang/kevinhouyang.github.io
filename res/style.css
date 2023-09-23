@@ -8,7 +8,7 @@ html {
 } */
 
 body {
-  background-color: #F4EBD9;
+  background-color: #f7fafc;
 }
 
 .bottom-align {
@@ -46,7 +46,7 @@ section {
 }
 
 .top-padding {
-  padding-top: 13rem;
+  padding-top: 4rem;
 }
 
 .bounding-box {
